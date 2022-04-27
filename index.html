@@ -1,0 +1,448 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank And Oak Mock Email</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+
+        body {
+            margin: 0;
+            
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .main {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-spacing: 0;
+
+        }
+
+        .foot {
+            width: 100%;
+            max-width: 780px;
+            margin: 0 auto;
+            border-spacing: 0;
+            background-color: hsl(168,14%,93%);
+            padding-bottom: 40px;
+        }
+
+        .button {
+            background-color: hsl(46,84%,77%);
+            text-decoration: none;
+            color: hsl(158,75%,30%);
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 15px 25px;
+            
+        }
+
+        .prod-links {
+            padding-bottom: 30px;
+        }
+
+        .col-1, .col-2 {
+            width: 100%; 
+            max-width: 600px; 
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 49%);
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .col-1 {
+            padding-bottom: 12px;
+        }
+
+        .col-1 a, .col-2 a {
+            max-width: 300px;
+            border: 2px solid #000000;
+            height: 70px;
+            color: #000000;
+            text-decoration: none;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            display: grid;
+            align-items: center;
+            
+        }
+
+        .col-1 a:hover, 
+        .col-2 a:hover {
+            background-color: hsl(46,84%,77%) ;
+            color: hsl(158,75%,30%);
+            border-color: #000000;
+        }
+
+        
+        .icons-1,.icons-2 {
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: space-between;
+            font-family: sans-serif;
+            font-size: 10px;
+           
+            
+        }
+
+        .icons-1 {
+            padding-top: 25px;
+            padding-bottom: 15px;
+            
+        }
+
+        .icons-2 {
+            padding-bottom: 25px;
+        }
+
+        .social {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-bottom: 40px;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: #000000;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .contact {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-links {
+            
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center;
+            align-items:baseline;
+           
+           
+            
+        }
+
+        .contact-links a {
+            color: #000000;
+        }
+
+        .contacts-1 {
+            color: #000000;
+            font-family: sans-serif;
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+        .contacts-2 {
+            line-height: 10px;
+            color: #000000;
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+
+        .banner-content {
+            color: #fff;
+        }
+
+
+
+        .foot-logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .banner-foot {
+            width: 100%;
+            max-width: 780px;
+            margin: 0 auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .banner-content {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .foot-logo p {
+            font-size: 10px;
+            font-family: sans-serif;
+            padding-left: 35px;
+            color: hsl(39,90%,87%);
+            line-height: 18px;
+
+        }
+
+        .foot-logo a {
+            color:hsl(39,90%,87%);
+            text-decoration: none;
+        }
+
+        .offer {
+            padding-bottom: 60px ;
+        }
+
+        .offer p {
+            line-height: 15px; 
+            font-size: 10px;
+        }
+
+
+
+       
+
+
+        
+       
+
+        
+     
+
+      
+
+       
+        
+
+        
+       
+
+        @media screen and (max-width: 600px) {
+            .offer p {
+                font-size: 9px;
+            }
+
+            .wrapper {
+                width: 100%;
+                max-width: 780px;
+            }
+
+           
+        }
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <main class="wrapper">
+        <table class="main">
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding-top: 50px; padding-bottom: 50px;">
+                                <img width="210" src="images/logos/logo.png" alt="Logo" title="Logo">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center; padding-bottom: 50px;">
+                    <p style="color: hsl(158,75%,30%);
+                    font-family: sans-serif;">This offer ends in:</p>
+                    <img width="300" src="images/counter.gif" alt="">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding-bottom: 30px;" >
+                    <img src="images/hero-image.jpg" alt="Hero Image" title="Banner" style="width: 100%; max-width: 600px;">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table width="100%" style="padding-bottom: 50px; text-align: center; font-family:sans-serif;">
+                        <tr>
+                            <td>
+                                <p style="color: hsl(158,75%,30%); padding-bottom: 25px;">Our Spring Sale is almost over, but our pieces are forever (well,<br>
+                                    almost). Shop today and wear for years on end.</p>
+
+                                <h2 style="color: hsl(158,75%,30%); padding-bottom: 40px; font-size: 36px;">Use code:<strong> SPRING25</strong></h2>
+                                <a href="https://www.frankandoak.com/pages/men?utm_campaign=202204018_spring_sale_MW_05_lastchance&utm_content=img&utm_medium=email&utm_source=Sale" class="button">Shop all spring deals</a>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding-bottom: 50px;">
+                    <img src="images/banner.gif" alt="Gif" style="width: 100%; max-width: 600px;">
+                </td>
+            </tr>
+           
+
+           
+
+            
+
+            
+
+        </table>
+
+        <div class="prod-links">
+            <div class="col-1">
+                <a href="#">Outerwear</a>
+                <a href="#">Shirts</a>
+
+            </div>
+
+            <div class="col-2">
+                <a href="#">Denim</a>
+                <a href="#">T-shirts</a>
+
+            </div>
+
+
+
+
+        </div>
+
+        
+        
+        
+        
+        
+
+    </main>
+
+    <div class="foot">
+        <div class="foot-content">
+            <div class="icons-1">
+                <div class="shipping">  
+                    <a href="#"><img src="images/icons/icon-shipping.png" alt="#" width="32"></a>
+                    <p>Free shipping</p>
+                </div>
+
+                <div class="returns">
+                    <a href="#"><img src="images/icons/icon-returns.png" alt="#" width="32"></a>
+                    <p>Free returns</p>
+                </div>
+                
+            </div>
+
+            <div class="icons-2">
+                <div class="pay">  
+                    <a href="#"><img src="images/icons/icon-pay.png" alt="#" width="32"></a>
+                    <p>Free shipping</p>
+                </div>
+
+                <div class="story">
+                    <a href="#"><img src="images/icons/icon-story.png" alt="#" width="32"></a>
+                    <p>Free returns</p>
+                </div>
+                
+            </div>
+
+            <div class="social">    
+                <a href="#"><img src="images/icons/icon-instagram.png" alt="#" width="16"> Instagram</a>
+                <a href="#"><img src="images/icons/icon-facebook.png" alt="#" width="16"> Facebook</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+
+
+            </div>
+
+        </div>
+
+        <div class="contact">
+            <div class="contact-links">
+                <div class="contacts-1">
+                    <a href="mailto:memberservices​@frankandoak.com">memberservices​@frankandoak.com</a>
+                    <p>160 St-Viateur Est</p>
+                    <p>Montreal (QC), Canada, H2T 1A8</p>     
+                </div>
+
+                <div class="contacts-2">    
+                    <p>Email not displaying properly? <a href="#">Click here</a></p>
+                    <div style="padding-bottom: 10px;"><a href="#">Manage your email preferences</a></div> 
+                    <div><a href="#">Unsubscribe from newsletter</a></div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+    <div class="banner-foot" style="background-color: hsl(0,0%,0%);">
+        <div class="banner-content"> 
+            <div class="foot-logo">
+                <img src="images/logos/certification-logo.png" alt="#" width="32">
+                <p>This company meets the highest standards of social and<br>environmental impact. <a href="#">Click here to learn more.</a></p>
+            </div>
+
+            <div class="foot-story">
+                <img src="images/logos/story-logo.png" alt="" width="42">
+
+            </div>
+            
+            
+
+
+        </div>
+
+    </div>
+
+    <div class="offer" style="width: 100%; max-width: 600px; text-align: center;  font-family: sans-serif; margin: 0 auto; padding-top: 10px;">
+        <p >
+            *Offer valid online and at Frank And Oak retail stores from April 13th at 9 am ET to April 19th 2022 at 9 am ET. Code <br>
+            SPRING25 must be entered at online checkout to redeem the offer. Offer not valid on gift cards and past purchases. <br>
+            Cannot be combined with any other discount or special offer. Additional restrictions may apply. Frank And Oak reserves <br>
+            the right to change or terminate this offer at any time and without prior notice.
+        </p>
+
+    </div>
+
+    
+
+
+    
+</body>
+</html>

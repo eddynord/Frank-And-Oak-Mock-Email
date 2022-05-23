@@ -64,7 +64,8 @@
 
         .foot-logo { display: flex; align-items: center; }
 
-        .banner-foot { width: 100%; max-width: 780px; margin: 0 auto; padding-top: 20px; padding-bottom: 20px; }
+        .banner-foot { width: 100%; max-width: 780px; margin: 0 auto; padding-top: 20px; padding-bottom: 20px;
+                        background-color: #000000; }
 
         .banner-content { margin: 0 auto; width: 100%; max-width: 600px; display: flex; justify-content: space-between;
                         align-items: center; }
@@ -78,6 +79,9 @@
 
         .offer p { line-height: 15px; font-size: 10px; }
 
+        
+        
+        /* MEDIA QUERY */
         
         @media screen and (max-width: 600px) {
 
@@ -122,6 +126,27 @@
 
             .banner-content { display: flex; justify-content: space-evenly;}
         }
+
+
+        @media screen and (max-width: 1280px) {
+
+            .wrapper { width: 100%; max-width: 600px; margin: 0 auto;}
+
+            .foot { width: 100%; max-width: 600px; margin: 0 auto; border-spacing: 0; background-color: hsl(168,14%,93%); 
+                    padding-bottom: 40px; }
+
+            /* .col-1, .col-2 { width: 100%; max-width: 640px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 49%);
+                        justify-content: space-between; align-items: center; } */
+
+            .col-1 a, .col-2 a { max-width: 300px; border: 2px solid #000000; height: 70px; color: #000000; 
+                            text-decoration: none; font-family: sans-serif; font-weight: 600; 
+                            font-size: 24px;}
+                
+
+            .contact-links { margin: 0 auto; display: flex;  justify-content: center; flex-direction: row; gap: 50px; }
+
+            .banner-content { display: flex; justify-content: space-evenly;}
+}
 
     </style>
        
@@ -259,7 +284,7 @@
         </div>
             
     
-        <div class="banner-foot" style="background-color: hsl(0,0%,0%);">
+        <div class="banner-foot">
             <div class="banner-content"> 
                 <div class="foot-logo">
                     <img src="images/logos/certification-logo.png" alt="#" width="32">

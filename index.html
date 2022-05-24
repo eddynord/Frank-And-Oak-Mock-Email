@@ -75,7 +75,8 @@
 
         .foot-logo a { color:hsl(39,90%,87%); text-decoration: none; }
 
-        .offer { padding-bottom: 60px ; }
+        .offer { width: 100%; max-width: 600px; text-align: center;  
+                font-family: sans-serif; margin: 0 auto; padding-top: 10px; padding-bottom: 60px ; }
 
         .offer p { line-height: 15px; font-size: 10px; }
 
@@ -84,6 +85,8 @@
         /* MEDIA QUERY */
 
         @media screen and (max-width: 320px) {
+        
+        .offer { max-width: 300px;}
 
         .offer p { font-size: 9px; }
 
@@ -106,6 +109,7 @@
 }
 
     @media screen and (max-width: 481px) {
+        .offer { max-width: 461px;}
 
         .offer p { font-size: 9px; }
 
@@ -128,7 +132,8 @@
     }
         
         @media screen and (max-width: 600px) {
-
+            .offer { max-width: 580px;}
+            
             .offer p { font-size: 9px; }
 
             .wrapper { width: 100%; max-width: 600px; }
@@ -149,6 +154,7 @@
             .banner-content { display: flex; justify-content: space-evenly;}
         }
 
+        
         @media screen and (max-width: 768px) {
 
             .offer p { font-size: 9px; }
@@ -223,7 +229,7 @@
 
             <tr>
                 <td style="padding-bottom: 30px;" >
-                    <img src="images/hero-image.jpg" alt="Hero Image" title="Banner" style="width: 100%; max-width: 600px;">
+                    <img src="images/hero-image.jpg" alt="Hero Image" title="Banner" style="width: 100%; max-width: 600px; padding-bottom: 8px;">
                 </td>
             </tr>
 
@@ -344,7 +350,7 @@
     
         </div>
     
-        <div class="offer" style="width: 100%; max-width: 600px; text-align: center;  font-family: sans-serif; margin: 0 auto; padding-top: 10px;">
+        <div class="offer">
             <p >
                 *Offer valid online and at Frank And Oak retail stores from April 13th at 9 am ET to April 19th 2022 at 9 am ET. Code <br>
                 SPRING25 must be entered at online checkout to redeem the offer. Offer not valid on gift cards and past purchases. <br>
